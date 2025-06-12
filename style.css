@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #12f021;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: rgb(20, 192, 211);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ed0ced;
+  border-radius: 8px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1d72b8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #155a96;
+}
+
+.note {
+  background-color: #e6f0ff;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.note button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #ff5c5c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.note button:hover {
+  background-color: #e60000;
+}
